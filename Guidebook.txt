@@ -1,0 +1,18 @@
+README.md is made to tell about what is project is...?
+
+.gitignore is made in a Git repository to tell Git which files or folders it should ignore (not track or commit).
+it means the file such as .tmp, .log which are not important , the system will generate such files for its own use.
+
+setup.py is a special Python file used for packaging your project so that it can be easily installed, distributed,
+or shared with others — just like other Python libraries you install using pip.
+    . setup.py is a special Python file used for packaging your project so that it can be easily installed, 
+      distributed, or shared with others — just like other Python libraries you install using pip.
+    . It turns your project folder into a distributable package that others can install using pip install .
+
+src - stands for “source” — it’s a directory used to store your project’s main source code
+
+__init__.py - When Python sees an __init__.py file inside a folder, it treats that folder as a module/package
+              that can be imported.
+
+
+"-e ." ---> this is use to connect the requirements.txt to the setup.py
